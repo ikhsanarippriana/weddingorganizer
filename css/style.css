@@ -86,7 +86,6 @@ nav{
 #e {
     background-image: url(../img/bg-1.png);
     background-size: cover;
-    background-position-y: -250px;
     background-repeat: no-repeat;
 }
 
@@ -157,6 +156,25 @@ nav{
     height: 100%;
 }
 
+#l {
+    background-color: rgb(167, 166, 166);
+}
+
+#l #location {
+    font-family: 'Varenthin 56';
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+#follow .card {
+    border: 1px solid #3a673e;
+}
+
+#follow .card-header {
+    background-color: #3a673e;
+    color: white;
+}
+
 .footer {
     background-color: rgb(100, 100, 100);
     color: white;
@@ -168,11 +186,11 @@ nav{
     bottom: 40px;
     right: 30px;
     text-decoration: none;
-    color: white;
+    color: white !important;
     font-size: 20px;
     height: 50px;
     width: 50px;
-    background-color: salmon;
+    background-color: #3a673e;
     text-align: center;
     display: none;
     transition: 0.5s;
@@ -181,6 +199,7 @@ nav{
 
 .gobtn:hover {
     transform: rotate(360deg) scale(1.1);
+    border-radius: 50%;
     background-color: #19233D;
 }
 
@@ -218,7 +237,11 @@ nav{
     }
 
     #e {
-        background-position-y: -100px !important;
+        background-position-y: 100px !important;
+    }
+
+    #follow {
+        margin-top: 50px;
     }
 
 }
@@ -263,7 +286,11 @@ nav{
     }
 
     #e {
-        background-position-y: -100px !important;
+        background-position-y: 100px !important;
+    }
+
+    #follow {
+        margin-top: 50px;
     }
 
 }
@@ -279,6 +306,10 @@ nav{
     }
 
     #e {
-        background-position-y: -100px !important;
+        background-position-y: 100px !important;
+    }
+
+    #follow {
+        margin-top: 50px;
     }
 }
